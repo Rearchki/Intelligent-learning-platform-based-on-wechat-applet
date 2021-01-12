@@ -1,0 +1,9 @@
+<!--pages/teaUpload/teaUpload.wxml-->
+<view class="container">
+  <image src="/images/upload.png"></image>
+  <input placeholder="请输入上传资料的名称" bindinput="getSource"></input>
+  <button bindtap="uploadSource" type="primary">上传教学资料</button>
+  <input placeholder="请输入上传作业的名称" bindinput="getHomework"></input>
+  
+  <button bindtap="uploadHomework" type="primary">上传作业</button>
+</view>

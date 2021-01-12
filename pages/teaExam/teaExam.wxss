@@ -1,0 +1,21 @@
+/* pages/teaExam/teaExam.wxss */
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+  height:1200rpx;
+} 
+
+.itemRoot{
+  background:white;
+  border:solid 2px coral;
+}
+image{
+  width: 180rpx;
+  height: 180rpx;
+}

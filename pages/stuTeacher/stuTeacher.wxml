@@ -1,0 +1,15 @@
+<!--pages/stuTeacher/stuTeacher.wxml-->
+<view class="container">
+      <view class="lie">
+        <image src="/images/teacher2.png"></image>
+        <view wx:if="{{tea}}">教师：{{tea}}</view>
+      </view>
+      <view class="lie">
+        <image src="/images/major2.png"></image>
+        <view wx:if="{{major}}">专业：{{major}}</view>
+      </view>
+      <view class="lie">
+        <image src="/images/major.png"></image>
+        <view wx:if="{{subject}}">学科：{{subject}}</view>
+      </view>
+</view>

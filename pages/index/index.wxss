@@ -1,0 +1,20 @@
+/**index.wxss**/
+
+.container {
+  height:1000rpx;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items:center;
+
+}
+
+.logo{
+  width:400rpx;
+  height:400rpx;
+  border-radius:25%;
+}
+
+text{
+  font-size:40rpx;
+}

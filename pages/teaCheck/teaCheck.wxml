@@ -1,0 +1,7 @@
+<!--pages/search/search.wxml-->
+
+<view class="container">
+  <image src="/images/check.png"></image>
+  <button bindtap="clickTeaStugra" type="primary">查看学生成绩</button>
+  <button bindtap="clickTearef" type="primary">查看满意度反馈</button>
+</view>

@@ -1,0 +1,13 @@
+/* pages/teaUpload/teaUpload.wxss */
+/* pages/teaVideo/teaVideo.wxss */
+.container{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  align-items: center;
+  height:1000rpx;
+}
+image{
+  height:180rpx;
+  width:180rpx;
+}

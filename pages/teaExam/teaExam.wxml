@@ -1,0 +1,16 @@
+<!--pages/teaExam/teaExam.wxml-->
+<view class="container">
+  <image src="/images/exam.png"></image>
+  <text>考试安排</text>
+  
+  <button bindtap="getData" type="primary">点击查看</button>
+  <view wx:for="{{examlist}}" bindtap="getData">
+    <view class="itemRoot">
+      <view>课程：{{item.course}}</view>
+      <view>时间：{{item.time}}</view>
+      <view>任课老师：{{item.tea}}</view>
+    </view>
+   
+  </view>
+</view>
+

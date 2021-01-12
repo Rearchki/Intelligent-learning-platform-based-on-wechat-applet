@@ -1,0 +1,20 @@
+<!--pages/video/video.wxml-->
+<view class="container">
+  <text class="title">视频</text>
+
+  <view class="contents">
+    <!--
+    <view class="bar">
+      <navigator url="/pages/stuLive/stuLive">
+        <text class="item">①教学视频直播</text>
+      </navigator>
+    </view>   -->
+    <view class="bar">
+      <navigator url="/pages/stuOrder/stuOrder">
+        <text class="item">教学视频点播</text>
+      </navigator>
+    </view>
+   
+  </view>
+</view>
+

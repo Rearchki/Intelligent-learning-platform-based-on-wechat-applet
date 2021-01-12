@@ -1,0 +1,34 @@
+<!--pages/search/search.wxml-->
+<view class="container">
+  <text class="tip">请点击选择所需功能</text>
+  <view class="hang">
+    <navigator bindtap="toUpload" class="logo" url="/pages/teaUpload/teaUpload">
+      <view class="lie">
+        <image src="/images/upload.png"></image>
+        <text>上传</text>
+      </view>
+    </navigator>
+    <navigator bindtap="toCheck" class="logo" url="/pages/teaCheck/teaCheck">
+      <view class="lie">
+        <image src="/images/check.png"></image>
+        <text>查看</text>
+      </view>
+    </navigator>
+  </view>
+
+  <view class="hang">
+    <navigator bindtap="toVideo" class="logo" url="/pages/teaVideo/teaVideo">
+      <view class="lie">
+        <image src="/images/video.png"></image>
+        <text>视频</text>
+      </view>
+    </navigator>
+    <navigator bindtap="toCommunity" class="logo" url="/pages/teaCommunity/teaCommunity">
+      <view class="lie">
+        <image src="/images/community2.png"></image>
+        <text>社区</text>
+      </view>
+    </navigator>
+  </view>
+  <button open-type='contact' class='kefu' session-from='weapp'>联系客服</button>
+</view>

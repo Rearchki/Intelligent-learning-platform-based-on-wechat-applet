@@ -1,0 +1,11 @@
+<!--pages/teaRef/teaRef.wxml-->
+<view class="container">
+      <view class="lie">
+        <image src="/images/teacher2.png"></image>
+        <view wx:if="{{tea}}">教师：{{tea}}</view>
+      </view>
+      <view class="lie">
+        <image src="/images/ref.png"></image>
+        <view wx:if="{{ref}}">满意度：{{ref}}</view>
+      </view>
+</view>

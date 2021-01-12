@@ -1,0 +1,29 @@
+<!--pages/stuOrder/stuOrder.wxml-->
+<view class="search">
+    <icon type="search" class="search-img" size="20"></icon>
+    <input type="text" placeholder="请输入视频名称" bindfocus="onbindfocus" bindinput="inputTyping" value="{{inputVal}}"></input>
+    <icon type="clear" class="clear-img" size="20" bindtap="onbindclear"></icon>
+</view>
+  
+<view wx:if="{{containershow}}">
+  <view class="container">  
+    <text class="title">视频点播</text>
+    <view class="playScreen">
+      <video src="{{videoUrl}}"></video>
+    </view>
+    <button bindtap="getVideolist" type="primary">点击显示视频列表</button>
+    <view class="bar">
+      <view wx:for="{{videolist}}" wx:key="{{index}}">     
+        <view class="lesson" bindtap="searchlistname" data-index="{{index}}">{{item.videoname}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view wx:if="{{searchxx}}">
+  <view wx:for="{{carList}}" wx:key="{{index}}">
+    <scroll-view class='scroll-view' >
+      <view class='user-name' bindtap='searchname' data-index="{{index}}"  >{{item.videoname}}</view>
+    </scroll-view>
+  </view>
+</view>

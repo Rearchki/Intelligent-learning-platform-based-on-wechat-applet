@@ -1,0 +1,24 @@
+<!--pages/stuTimetable/stuTimetable.wxml-->
+<view class="container">
+<view class="hang">
+      <view class="lie">
+        <image src="/images/major.png"></image>
+        <view wx:if="{{inp}}">学科：{{inp}}</view>
+      </view>
+      <view class="lie">
+        <image src="/images/time.png"></image>
+        <text>上课时间：</text>
+        <view wx:if="{{time}}">{{time}}</view>
+      </view>
+  </view>
+  <view class="hang">
+      <view class="lie">
+        <image src="/images/teacher2.png"></image>
+        <view wx:if="{{teacher}}">教师：{{teacher}}</view>
+      </view>
+      <view class="lie">
+        <image src="/images/room.png"></image>
+        <view wx:if="{{room}}">教室：{{room}}</view>
+      </view>
+  </view>
+</view>

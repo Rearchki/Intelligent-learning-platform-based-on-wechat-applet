@@ -1,0 +1,40 @@
+/* pages/teaInterface/teaInterface.wxss *//* pages/search/search.wxss *//* pages/stuInterface/stuInterface.wxss */
+.container{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  align-items: center;
+  height:1000rpx;
+
+}
+.title{
+  font-size:50rpx;
+}
+.tip{
+  font-size:40rpx;
+  color:gray;
+}
+image{
+  height:180rpx;
+  width:180rpx;
+}
+.hang{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+.lie{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  align-items: center;
+  width:200rpx;
+}
+.kefu{
+  width: 90%;
+  background: #22ac38;
+  color: #fff;
+  border-radius: 50rpx;
+  
+}

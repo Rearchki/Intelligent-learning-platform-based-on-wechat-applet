@@ -1,0 +1,21 @@
+<!--pages/stuLogin/stuLogin.wxml-->
+<view class="stuLogin">
+  <image src="/images/teacher.png"></image>
+  <view class="bar">
+    <text>姓名 : </text>
+    <input placeholder="请输入姓名" bindinput="getName"/>
+  </view>
+  <view class="bar">
+    <text>工号 : </text>
+    <input placeholder="请输入工号" bindinput="getJobnum"/>
+  </view>
+  <view class="bar">
+    <text>密码 : </text>
+    <input type="password" placeholder="请输入密码" bindinput="getPassword"/>
+  </view>
+
+  <button bindtap="clickHere" type="primary">教师登录</button>
+  <!-- 这是一个显示在界面上的测试案例
+    <view>{{name}}{{major}}{{id}}</view> -->
+</view>
+

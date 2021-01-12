@@ -1,0 +1,21 @@
+/* pages/teaCommunity/teaCommunity.wxss */
+.container{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  align-items: center;
+  height:1000rpx;
+}
+.title{
+  font-size:50rpx;
+}
+.input{
+  border:2px solid gainsboro;
+  height: 100px;
+  margin-bottom: 50px;
+}
+.itemRoot{
+  background:white;
+  border:solid 1px gray;
+  margin-bottom: 10px;
+}

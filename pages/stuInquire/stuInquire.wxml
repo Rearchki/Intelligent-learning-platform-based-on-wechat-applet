@@ -1,0 +1,21 @@
+<!--pages/inquire/inquire.wxml-->
+<view class="container">
+  <view class='select_box'>
+    <view class='select' catchtap='selectTap'>
+      <text class='select_text'>{{selectData[index]}}</text>
+        
+    </view>
+    <view class='option_box' style='height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;'>
+        <text class='option' style='{{index==selectData.length-1&&"border:0;"}}' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
+    </view>
+  </view>
+
+  <view class="searchbox">
+    <input placeholder="{{pal}}" bindinput="getInput" value="{{val}}"></input>
+    <icon type="clear" wx:if="{{isClear}}" bindtap="clearTap"></icon>
+  </view>
+
+  <button bindtap="clickHere" type="primary" >搜索</button>
+
+
+</view>

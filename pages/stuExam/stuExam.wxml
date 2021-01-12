@@ -1,0 +1,16 @@
+<!--pages/stuExam/stuExam.wxml-->
+<view class="container">
+      <view class="lie">
+        <image src="/images/major.png"></image>
+        <view wx:if="{{inp}}">学科：{{inp}}</view>
+      </view>
+      <view class="lie">
+        <image src="/images/time.png"></image>
+        <text>考试时间：</text>
+        <view wx:if="{{time}}">{{time}}</view>
+      </view>
+      <view class="lie">
+        <image src="/images/room.png"></image>
+        <view wx:if="{{room}}">教室：{{room}}</view>
+      </view>
+</view>

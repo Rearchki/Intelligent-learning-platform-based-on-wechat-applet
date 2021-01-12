@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <image src="/images/duck.jpg" class="logo"></image>
+  <text>每天也要加油鸭</text>
+  <button bindtap="clickStu" type="primary">学生登录</button>
+  <button bindtap="clickTea" type="primary">教师登录</button>
+  
+  
+  
+</view>

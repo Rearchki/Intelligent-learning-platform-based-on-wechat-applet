@@ -1,0 +1,37 @@
+<!--pages/teaStugra/teaStugra.wxml-->
+<view class="search">
+    <icon type="search" class="search-img" size="20"></icon>
+    <input type="text" placeholder="请输入学生名称" bindfocus="onbindfocus" bindinput="inputTyping" value="{{inputVal}}"></input>
+    <icon type="clear" class="clear-img" size="20" bindtap="onbindclear"></icon>
+  </view>
+  
+<view wx:if="{{containershow}}">
+  <view class="container">  
+    <view class="hang">
+      <view class="lie">
+        <image src="/images/student2.png"></image>
+        <view wx:if="{{stu}}">学生：{{stu}}</view>
+      </view>
+      <view class="lie">
+        <image src="/images/grade.png"></image>
+        <view wx:if="{{grade}}">成绩：{{grade}}</view>
+      </view>
+      </view>
+
+    <button bindtap="getVideolist">点击显示学生列表</button>
+    <view class="bar">
+      <view wx:for="{{stulist}}" wx:key="{{index}}">     
+        <view class="lesson" bindtap="searchlistname" data-index="{{index}}">{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view wx:if="{{searchxx}}">
+  <view wx:for="{{carList}}" wx:key="{{index}}">
+    <scroll-view class='scroll-view' >
+      <view class='user-name' bindtap='searchname' data-index="{{index}}"  >{{item.name}}</view>
+    </scroll-view>
+</view>
+</view>

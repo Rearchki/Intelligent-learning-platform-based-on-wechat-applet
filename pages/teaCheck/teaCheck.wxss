@@ -1,0 +1,14 @@
+/* pages/teaCheck/teaCheck.wxss *//* pages/teaCheck/teaCheck.wxss *//* pages/teaInterface/teaInterface.wxss *//* pages/search/search.wxss *//* pages/stuInterface/stuInterface.wxss */
+.container{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  align-items: center;
+  height:1000rpx;
+
+}
+image{
+  height:180rpx;
+  width:180rpx;
+}
+

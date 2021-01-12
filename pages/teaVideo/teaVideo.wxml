@@ -1,0 +1,9 @@
+<view class="container">
+  <image src="/images/video.png"></image>
+  <view class="upvideo">
+    <input placeholder="请输入上传视频的名称" bindinput="getCourse"></input>
+    <button bindtap="uploadVideo" type="primary">上传视频</button>
+  </view>
+  <!--
+  <button bindtap="clicklivePlay" type="primary">开启课堂直播</button>-->
+</view>

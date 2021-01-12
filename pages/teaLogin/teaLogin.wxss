@@ -1,0 +1,31 @@
+/* pages/teaLogin/teaLogin.wxss *//* pages/stuLogin/stuLogin.wxss *//* pages/stuLogin/stuLogin.wxss */
+.stuLogin{
+  height:900rpx;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items:center;
+}
+
+.bar{
+  display:flex;
+  flex-direction:row;
+}
+
+image{
+  width:400rpx;
+  height:400rpx;
+  /* border-radius:50%; */
+}
+.bar{
+  border:3rpx solid black;
+  border-radius:10rpx;
+  padding:10rpx;
+}
+text{
+  font-size:40rpx;
+}
+input{
+  font-size:40rpx;
+
+}

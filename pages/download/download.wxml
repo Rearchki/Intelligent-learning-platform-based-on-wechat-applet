@@ -1,0 +1,29 @@
+<!--pages/download/download.wxml-->
+
+<view class="search">
+    <icon type="search" class="search-img" size="20"></icon>
+    <input type="text" placeholder="请输入文件名称" bindfocus="onbindfocus" bindinput="inputTyping" value="{{inputVal}}"></input>
+    <icon type="clear" class="clear-img" size="20" bindtap="onbindclear"></icon>
+  </view>
+  
+<view wx:if="{{containershow}}" >
+  <view class="container">  
+    <text class="title">文件下载</text>
+    <!-- <button bindtap="xiazai" type="primary">下载</button> -->
+    <button bindtap="getFilelist" type="primary">点击显示文件列表</button>
+    <view class="bar">
+      <view wx:for="{{filelist}}" wx:key="{{index}}">     
+        <view class="lesson" bindtap="searchlistname" data-index="{{index}}">{{item.sourcename}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view wx:if="{{searchxx}}">
+  <view wx:for="{{carList}}" wx:key="{{index}}">
+    <scroll-view class='scroll-view' >
+      <view class='user-name' bindtap='searchname' data-index="{{index}}">{{item.sourcename}}</view>
+    </scroll-view>
+</view>
+  
+</view>

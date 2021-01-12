@@ -1,0 +1,13 @@
+<!--pages/teaCommunity/teaCommunity.wxml-->
+<button bindtap="getComment" type="primary">显示评论</button>
+<view wx:for="{{Commentlist}}" bindtap="getComment">
+<view class="itemRoot">
+      <view>用户名：{{item.username}}</view>
+      <view>评论内容：{{item.comment}}</view>
+    </view>
+  </view>
+  <input placeholder="请输入用户名" bindinput="getUsername" ></input>
+  <input placeholder="请输入评论内容" bindinput="getContent" class="input"></input>
+  <button type="primary" bindtap="pubComment">发表评论</button>
+  
+

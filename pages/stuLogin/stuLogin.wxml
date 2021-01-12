@@ -1,0 +1,17 @@
+<!--pages/stuLogin/stuLogin.wxml-->
+<view class="stuLogin">
+  <image src="/images/student.png"></image>
+  <view class="bar">
+    <text>姓名 : </text>
+    <input placeholder="请输入姓名" bindinput="getName"/>
+  </view>
+
+  <view class="bar">
+    <text>学号 : </text>
+    <input placeholder="请输入学号" bindinput="getId"/>
+  </view>
+  
+  <button bindtap="clickHere" type="primary">学生登录</button>
+  
+</view>
+

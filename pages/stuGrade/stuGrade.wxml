@@ -1,0 +1,13 @@
+<!--pages/stuTimetable/stuTimetable.wxml-->
+<view class="container">
+<view class="hang">
+      <view class="lie">
+        <image src="/images/major.png"></image>
+        <view wx:if="{{inp}}">学科：{{inp}}</view>
+      </view>
+      <view class="lie">
+        <image src="/images/grade.png"></image>
+        <view wx:if="{{grade}}">成绩：{{grade}}</view>
+      </view>
+  </view>
+</view>

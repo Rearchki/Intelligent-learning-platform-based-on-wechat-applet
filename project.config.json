@@ -1,0 +1,130 @@
+{
+  "description": "项目配置文件",
+  "cloudfunctionRoot": "cloud/",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "scopeDataCheck": false,
+    "coverView": true,
+    "es6": true,
+    "postcss": true,
+    "compileHotReLoad": false,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "autoAudits": false,
+    "newFeature": false,
+    "uglifyFileName": false,
+    "uploadWithSourceMap": true,
+    "useIsolateContext": true,
+    "nodeModules": false,
+    "enhance": false,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "showShadowRootInWxmlPanel": true,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "bundle": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.14.1",
+  "appid": "wx3023c9eff5bf7dbd",
+  "projectname": "miniprogram-1",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "scripts": {},
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/teaInterface/teaInterface",
+          "pathName": "pages/teaInterface/teaInterface",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/video/video",
+          "pathName": "pages/video/video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/teaLogin/teaLogin",
+          "pathName": "pages/teaLogin/teaLogin",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/inquire/inquire",
+          "pathName": "pages/inquire/inquire",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/community/community",
+          "pathName": "pages/community/community",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/teaSearch/teaSearch",
+          "pathName": "pages/teaSearch/teaSearch",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/download/download",
+          "pathName": "pages/download/download",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/teaUpload/teaUpload",
+          "pathName": "pages/teaUpload/teaUpload",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/stuOrder/stuOrder",
+          "pathName": "pages/stuOrder/stuOrder",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/stuLogin/stuLogin",
+          "pathName": "pages/stuLogin/stuLogin",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

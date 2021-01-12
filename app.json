@@ -1,0 +1,41 @@
+{
+  "pages":[
+
+
+    "pages/index/index",
+    "pages/logs/logs",
+    
+    "pages/stuLogin/stuLogin",         
+    "pages/stuInterface/stuInterface",
+    "pages/stuInquire/stuInquire",
+    "pages/stuVideo/stuVideo",
+    "pages/stuTimetable/stuTimetable",
+    "pages/stuGrade/stuGrade",
+    "pages/stuExam/stuExam",
+    "pages/stuTeacher/stuTeacher",
+    "pages/stuLive/stuLive",
+    "pages/stuOrder/stuOrder",
+    "pages/community/community",
+    "pages/download/download",
+
+    "pages/teaLogin/teaLogin",
+    "pages/teaInterface/teaInterface",
+    "pages/teaUpload/teaUpload",
+    "pages/teaCheck/teaCheck",
+    "pages/teaExam/teaExam",
+    "pages/teaStugra/teaStugra",
+    "pages/livePlay/livePlay",
+    "pages/teaRef/teaRef",
+    "pages/teaVideo/teaVideo",
+    "pages/teaCommunity/teaCommunity"
+  ],
+  
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
